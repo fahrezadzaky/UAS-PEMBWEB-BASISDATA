@@ -1,0 +1,172 @@
+*, html,body{
+    margin: 0;
+    padding 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fcontainer{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 0;
+    background-color: lightgray;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 800%;
+    height: 80px;
+    background-color: grey;
+}
+.logo{
+    width: 100px;
+    height: 10px;
+    border: 2px;
+}
+.logoweb{
+    padding-top: 12px;
+    padding-left: 15px;
+    width: 100px;
+    height: 55px;
+}
+.navigasi{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigasi>li{
+    list-style-type: none;
+    padding: 15px;
+}
+.navigasi>li>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navigasi>li>a:hover{
+    color: tomato;
+    transition: all 3s case-in-out;
+}
+.layar{
+    padding: 100px;
+    margin-top: 20px;
+    display: flex;
+    background-color: bisque;
+}
+.judul{
+    padding-top: 150px;
+    padding-bottom: 0px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+.h1{
+    align-items: center;
+}
+.container{
+    padding-top: 150px;
+    
+}
+.container>body{
+    width: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 150px;
+    margin-top: 100px;
+    align-items: center;
+    grid-gap: 30px;
+}
+.img{
+    object-fit: cover;
+}
+.grid > article{
+    box-shadow: 10px 5px 3px 0px;
+    border-radius: 30px;
+    text-align: center;
+    background: grey;
+    width: 300px;
+    transition: transform;
+}
+.grid >  article > img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+/**.konten{
+    cursor: progress;
+}**/
+.grid > article:hover{
+    /**transform: rotate(15deg);**/
+    transform: scale(1.2);
+}
+@media (max-width:1000px){
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:800px){
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.isi1{
+    width: 300px;
+    float: left;
+    padding: 20px;
+    background-color: greenyellow;
+    
+}
+.isi1>h2{
+    text-align: center;
+    background-color: aqua
+}
+.tugupah{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.isi>h3{
+
+        text-align: center;
+        background-color: aqua
+}
+.sudir{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jalasvevajayamahe{
+    width: 136px;
+    padding-top: 50px;
+}
+.bamburuncing{
+    width: 188px;
+    padding-top: 50px;
+}
+.kapalselam{
+    width: 251px;
+    padding-top: 50px;
+}
+.jembatanmerah{
+    padding-top: 50px;
+    width: 281px;
+}

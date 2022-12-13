@@ -1,0 +1,43 @@
+*,html.body{
+    padding: o;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.tombol{
+    background-color: brown;
+}
+.layar{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: burlywood;
+    margin: 0;
+}
+.isi{
+    justify-content: center;
+    background-color: aqua;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+
+}
+.isi>img{
+    width: 500px;
+    padding-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.isi>h1{
+   justify-content: center;
+   align-content: center;
+   background-color: blue;
+   text-align: center;
+   padding-top: 30px;
+}
+.isi>p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
